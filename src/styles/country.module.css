@@ -11,19 +11,23 @@
 
 .country-content {
   align-items: center;
-  background: #8c2b2b;
+  background: #d7376f;
   display: flex;
   height: 215px;
   justify-content: center;
-  margin: 8px;
-  padding: 8px;
+  margin: 12px;
+  padding: 12px;
   width: 20%;
   position: relative;
   overflow: hidden;
+  min-height: 200px;
+  box-shadow: 0 0 12px 9px #1e020c;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.2rem;
 }
 
 .flag {
-  width: 9rem;
+  width: 7rem;
   height: auto;
   margin: 10px;
   border-radius: 10px;
@@ -79,11 +83,11 @@
 
 @media only screen and (max-width: 768px) {
   .country-content {
-    width: 25%;
+    width: 35%;
   }
 
   .search-field {
-    width: 40%;
+    width: 100%;
   }
 }
 
