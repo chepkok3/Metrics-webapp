@@ -11,7 +11,7 @@ const Header = () => (
     </NavLink>
 
     <div className={styles.header}>
-      <h1 className={styles.page__header}>Country Stats</h1>
+      <h1 className={styles.page__header}>Country Statistics</h1>
     </div>
     <div className={styles.icons}>
       <FaMicrophone size={20} />
