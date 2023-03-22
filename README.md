@@ -1,70 +1,169 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📗 Table of Contents](#-table-of-contents)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started--1)
+    - [Prerequisites](#prerequisites-1)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [Authors](#authors)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-### `npm start`
+# 📖 Metrics-Webapp<a name="about-project"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Metrics-Webapp** is a single-page application (SPA) built with React and Redux. It shows a list of countries fetched from an external API. The user can can click on a country to view all information about a certain country ranging from its population, size in square kilometers, languages spoken, timezone among others. User can also search for a country directly using a search option on top of the home page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm test`
+- ![Redux](https://img.shields.io/badge/-Redux-1d1919?style=flat&logo=redux)
+- ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
+- ![CSS3](https://img.shields.io/badge/-CSS3-000000?style=flat&logo=css3&logoColor=ffffff&labelColor=1572B6)
+- ![HTML](https://img.shields.io/badge/-HTML-000000?style=flat&logo=html)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Getting Started <a name="getting-started"></a>
 
-### `npm run build`
+To get a local copy up and running, follow these steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone the Repo or Download the Zip file or `https://github.com/chepkok3/Metrics-webapp.git`
+- cd /metrics-webapp
+- `npm install` To download all the dependancies of the project
+- Use `npm start` to run the app in your browser
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In order to run this project you need:
 
-### `npm run eject`
+- Git/Github
+- React, Redux, HTML,CSS knowledge.
+- VS code or any other equivalent tool.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Key Features <a name="key-features"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Fetching data from Api with createAsyncThunk and render on pages**
+- Display country info
+- Search for country by name
+- View selected country's details
+- Transition effects on country info.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Learn More
+- See it live by clicking [Live Demo Link](https://quiet-croissant-9d8fdb.netlify.app/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Walkthrough Video [Walkthrough](https://www.loom.com/share/b598574a6e694cb7a28ea107b278372b)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
 
-### Analyzing the Bundle Size
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Setup
 
-### Making a Progressive Web App
+Clone this repository to your desired folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```sh
+  cd my-folder
+  git clone https://github.com/chepkok3/Metrics-webapp.git
+```
 
-### Advanced Configuration
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Install this project with:
 
-### Deployment
+```sh
+  cd my-folder
+  git clone https://github.com/chepkok3/Metrics-webapp.git
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Usage
 
-### `npm run build` fails to minify
+Use this app by runing:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+  cd my-folder
+  git https://github.com/chepkok3/Metrics-webapp.git
+  npm install
+  npm start
+```
+
+### Run tests
+
+Test this app by runing:
+
+```sh
+  cd my-folder
+  git clone https://github.com/chepkok3/Metrics-webapp.git
+  npm install
+  npm test
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Authors
+
+## 👥 Author <a name="author"></a>
+
+👤 **Stanley Kibor**
+
+- GitHub: [@chepkok3](https://github.com/chepkok3)
+- Twitter: [@chepkok3](https://twitter.com/home)
+- LinkedIn: [@chepkok3](https://www.linkedin.com/in/kibor-stanley-350b8a123/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Country Economic Growth**
+- [ ] **An About Page**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project and share it with your friends.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- The original design is done by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- I would like to thank the Microverse team and my coding partners for the help received during the journey.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/chepkok3/Metrics-webapp/blob/dev/MIT%20License) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
