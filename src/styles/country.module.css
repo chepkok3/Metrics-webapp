@@ -13,12 +13,13 @@
   align-items: center;
   background: #8c2b2b;
   display: flex;
-  height: 220px;
+  height: 215px;
   justify-content: center;
   margin: 8px;
   padding: 8px;
   width: 20%;
   position: relative;
+  overflow: hidden;
 }
 
 .flag {
