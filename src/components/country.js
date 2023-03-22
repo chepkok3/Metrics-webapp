@@ -40,7 +40,7 @@ function Country() {
           className={styles['search-entry']}
           value={searchTerm}
           onChange={(event) => setSearchTerm(event.target.value)}
-          placeholder="Search for a country..."
+          placeholder="Search a country..."
         />
       </div>
       <div className={styles['countries-container']}>
